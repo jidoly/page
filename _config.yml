@@ -18,7 +18,7 @@ github_username: violetbeach
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   **카카오페이**에서 4년차 서버개발자로써 **카드 결제 서비스**를 개발하고 있습니다.
   사용자에게 **폭 넓은 비즈니스 가치**를 전달하고, 기존 코드와 아키텍처의 확장성 및 성능을 개선하여 **사용자 경험(UX)**을 향상시키는 데 주력하고 있습니다. \
