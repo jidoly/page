@@ -2,16 +2,15 @@
 repository: violetbeach/violetbeach.github.io
 
 # Personal info
-name: 이재헌
-title: 카카오페이 서버 개발자
-email: ti6419@gmail.com
-website: https://jaehoney.tistory.com
+name: 김지훈
+title: Spring Jpa/React 풀스택 개발자
+email: jidol8849@gmail.com
 
-# Additional icon links
-additional_links:
-  - title: Tech Blog
-    icon: fab fa-blogger
-    url: https://jaehoney.tistory.com
+# # Additional icon links
+# additional_links:
+#   - title: Tech Blog
+#     icon: fab fa-blogger
+#     url: https://jaehoney.tistory.com
 
 # Social links
 github_username: violetbeach
