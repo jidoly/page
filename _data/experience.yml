@@ -1,27 +1,25 @@
 - layout: left
-  company: 카카오페이
-  link: https://www.kakaopay.com/
-  job_title: 플랫폼서비스파티 카드플랫폼유닛
-  dates: 2024.01 ~ 재직 중
+  company: 굿스플로
+  link: https://www.goodsflow.com/
+  job_title: 플랫폼팀 서비스개발
+  dates: 2024.02 ~ 재직 중
   quote: >
-    페이머니 선불/체크카드 결제 및 전반적인 시스템 개발 및 운영
+    신규 서비스 런칭 및 상용화
   description: | # this will include new lines to allow paragraphs
-    * 카카오페이머니 기반 카드결제 인프라 개발 및 운영
-    * 삼성페이 MST X 카카오페이 머니 연동으로 결제 커버리지 대폭 확장
-    * 승인대사, 매입 및 정산, 소득공제 등 다수 배치, GW 개발
-    * 결제 실패율 감소, 프로모션을 위한 모듈 개발
-    * 전사과제 및 시스템 개선 수행
+    * 자사 .NET 윈도우 애플리케이션 > React/Spring 기반 웹서비스 신규 런칭
+    * JPA/Hibernate 기반 도메인 모델링 및 관계 설계
+    * AWS/Jenkins 기반 CI/CD 파이프라인을 구축 및 무중단 배포 구현
+    * 요금제 모델 설계 및 정산 스케줄러 개발
+    * 관리자 백오피스 개발 및 관리 자동화
 
 - layout: left
-  company: 가비아
+  company: 공공데이터-공모전 우수상
   link: https://www.gabia.com/
-  job_title: 하이웍스개발팀 메일개발유닛
-  dates: 2021.11 ~ 2024.01
+  job_title: 2022 행정안전부 주최
+  dates: 2022.12 ~ 2023.01
   quote: >
-    MAU 60만 그룹웨어 하이웍스 메일서비스 개발 및 유지보수
+    전국 단위 공모전 3위
   description: | # this will include new lines to allow paragraphs
-    * 레거시 개편 (PHP 5.6 CodeIgniter > Java & Spring)
-    * 다수의 Cron, Migration Script 작성
-    * SQL 및 성능 튜닝 및 데이터 모델링
-    * 코드 리뷰 및 방향성 설득
-    * 운영 이슈 해결 및 장애 대응
+    * 건국대학교 웹개발 동아리(닷컴온) 리드 개발 참여
+    * 공공데이터 포털/Q-NET Open API 활용
+    * Egov(전자 정부 프레임워크)/JSP 기반 웹앱 개발
