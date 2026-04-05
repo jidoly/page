@@ -1,39 +1,17 @@
 - layout: left
-  name: 개발 블로그
-  link: https://jaehoney.tistory.com/
+  company: 공공데이터 활용 공모전 우수상
+  job_title: 2022 행정안전부 주최
+  dates: 2022.12 ~ 2023.01
   quote: >
-    개인 기술 블로그
+    전국 단위 공모전 우수상 수상
   description: |
-    * 개발하면서 겪은 고민과 업무에서 만난 문제 등을 기록하고 공유
-    * 매주 2~3회 포스팅을 업로드
-    * 현재 평일 평균 PV 800 ~ 1200, 누적 PV 69만
+    * 건국대학교 웹개발 동아리(닷컴온) 리드 개발 참여
+    * 공공데이터 포털 / Q-NET Open API 활용 웹 서비스 개발
+    * Egov(전자정부프레임워크) · JSP 기반 웹 애플리케이션 구현
 
 - layout: left
-  name: Open Source
+  company: 자격증
   quote: >
-    오픈 소스 기여 (Contribution Experience)
-  description: | # this will include new lines to allow paragraphs
-    * Spring-Kafka
-      * @Nested 클래스 테스트에서 Test Context가 캐싱되지 않는 문제 해결 ([Github PR](https://github.com/spring-projects/spring-kafka/pull/2694){:target="_blank"} / [Blog](https://jaehoney.tistory.com/347){:target="_blank"})
-    * Spring-Framework 
-      * (spring-jdbc) [RoutingDataSource 런타임 중 DataSource 추가를 위해 메서드 분리](https://github.com/spring-projects/spring-framework/pull/31248){:target="_blank"}
-    * Apache-Commons-Email
-      * [메일 데이터를 메모리에 중복으로 저장하는 문제 해결](https://github.com/apache/commons-email/pull/157){:target="_blank"}
-      * [Parser를 Stream 방식으로 변경해서 Memory Issue 해결](https://github.com/apache/commons-email/pull/159){:target="_blank"}
-      * [etc. 일부 테스트 수정](https://github.com/apache/commons-email/pull/158){:target="_blank"}
-    * Spring-Data-Redis
-      * [ListOperations의 getFirst(), getLast() 메서드 추가](https://github.com/spring-projects/spring-data-redis/pull/2966){:target="_blank"}
-      * etc. 일부 JavaDoc 수정
-    * Kotlin
-      * [샘플 코드 추가](https://github.com/JetBrains/kotlin/pull/5411){:target="_blank"}, [코드 간소화](https://github.com/Kotlin/kotlinx.coroutines/pull/4378){:target="_blank"} 등
-    * Lucy-XSS-Filter
-      * [blockingPrefix 설정 문서 누락 추가](https://github.com/naver/lucy-xss-filter/pull/29){:target="_blank"}
-
-- layout: left
-  name: Etc.
-  quote: >
-    사내에서 수행한 외부 활동
-  description: | # this will include new lines to allow paragraphs
-    * [카카오페이 기술 블로그(테크 리뷰어) - 분산 시스템에서 로컬 캐시 활용하기](https://tech.kakaopay.com/post/local-caching-in-distributed-systems/){:target="_blank"}
-    * Gabia Teams - 사내 Confluence 문서 활용 개선 발표 (가독성 개편, 온본딩 문서 작성, 가이드 공유 등)
-      * [인프런 강의](https://inf.run/pUhLJ), 공식 문서 기반 학습 후 사내 문서 개선 및 발표
+  description: |
+    * 정보처리기사
+    * SQLD (SQL 개발자)

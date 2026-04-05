@@ -17,4 +17,14 @@
   font-weight: bold;
 }
 
+.intro-container p {
+  line-height: 1.6;  
+  margin-bottom: 30px;
+}
+
+.intro-container br {
+  display: block;
+  margin-bottom: 10px; 
+}
+
 @import 'modern-resume-theme';

@@ -1,16 +1,21 @@
 - layout: left
   name: Backend
-  description: | # this will include new lines to allow paragraphs
-    * Java, Kotlin
-    * Spring Boot
+  description: |
+    * Java, Spring Boot
     * JPA, Querydsl
-    * Junit5, Mockito, RestAssured
+    * Redis, WebSocket
     * Gradle
+
+- layout: left
+  name: FrontEnd
+  description: |
+    * React
+    * TypeScript, JavaScript
+    * Styled-components / CSS
+
 - layout: left
   name: DevOps
-  description: | 
-    * MySQL, MariaDB
-    * CircleCI, Code Deploy
-    * AWS EC2, RDS (MySQL), ElastiCache, S3, Elastic Load Balancer, Route53
-    * Grafana, Sentry, ELK
-    * JMeter, nGrinder
+  description: |
+    * AWS EC2, RDS (PostgreSQL)
+    * Jenkins (CI/CD)
+    * Docker
