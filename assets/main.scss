@@ -26,5 +26,22 @@
   display: block;
   margin-bottom: 10px; 
 }
+@media print {
+  .details.col-print-12 {
+    width: 30% !important;
+    display: inline-block !important;
+    vertical-align: top;
+  }
 
+  .details + div {
+    width: 70% !important;
+    display: inline-block !important;
+    vertical-align: top;
+  }
+  .intro-container .row.clearfix {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start;
+  }
+}
 @import 'modern-resume-theme';

@@ -1,0 +1,15 @@
+<div class="container intro-container">
+  <h3 id="about-me">About Me</h3>
+
+  <div class="row clearfix">
+
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-4 details">
+      <img src="{{ site.about_profile_image }}" class="profile-img" />
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-8">
+      {{ site.about_content | markdownify }}
+    </div>
+
+  </div>
+</div>
