@@ -26,7 +26,7 @@ skills:
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  서비스 신규 **런칭부터 연매출 30억+ 규모 성장**까지 함께한 풀스택 개발자 김지훈입니다.  
+  서비스 **신규 런칭부터 연매출 30억+ 규모 성장**까지 함께한 풀스택 개발자 김지훈입니다.  
   건국대학교 **소프트웨어 전공**을 졸업하고, **공공데이터 공모전 우수상**을 수상했습니다.  
 
   ㈜굿스플로 플랫폼팀에서 **Spring Boot · React 기반 SaaS 아키텍처**를 설계하고,  
