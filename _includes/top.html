@@ -21,8 +21,9 @@
     {%- endif -%}
   </div>
   <div class="col-xs-12 col-print-12">
-    {%- if include.item.quote -%}
-      <p class="quote">{{ include.item.quote }}</p>
+    {%- assign quote_text = include.item.quote | strip -%}
+    {%- if quote_text != "" -%}
+      <p class="quote">{{ quote_text }}</p>
     {%- endif -%}
     {{ include.item.description | strip | markdownify }}
   </div>

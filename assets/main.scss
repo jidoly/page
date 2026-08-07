@@ -2,30 +2,70 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+@import 'modern-resume-theme';
+
+/* ===== Custom overrides (테마 뒤에 두어야 적용됨) ===== */
+
+/* 섹션 제목 — 점선 대신 은은한 실선 */
+h3 {
+  border-bottom: solid 1px #e2e8f0;
+  padding-bottom: 12px;
+}
+
+/* 인용문 — 왼쪽 정렬 카드 스타일 (옅은 블루) */
+.quote {
+  text-align: left;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #075985;
+  background: #eff6ff;
+  border-left: 4px solid #60a5fa;
+  border-radius: 0 8px 8px 0;
+  padding: 1.2rem 1.6rem;
+  margin: 0 0 2rem;
+}
+
+/* 경력/프로젝트 항목 사이 구분선 */
+.layout + .layout {
+  border-top: 1px solid #f1f5f9;
+  padding-top: 2.5rem;
+}
+
+/* 본문 리스트 가독성 */
+.layout ul li {
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+
+/* 스킬 태그 */
 .skill-tags {
   margin-top: 10px;
 }
 
 .tag {
   display: inline-block;
-  padding: 5px 10px;
-  margin: 4px;
+  padding: 4px 12px;
+  margin: 3px 6px 3px 0;
   background: #e0f2fe;
   color: #0369a1;
   border-radius: 20px;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
+/* About Me 문단 */
 .intro-container p {
-  line-height: 1.6;  
-  margin-bottom: 30px;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 .intro-container br {
   display: block;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
+
 @media print {
   .details.col-print-12 {
     width: 30% !important;
@@ -38,10 +78,15 @@
     display: inline-block !important;
     vertical-align: top;
   }
+
   .intro-container .row.clearfix {
     display: flex !important;
     flex-wrap: nowrap !important;
     align-items: flex-start;
   }
+
+  .quote {
+    background: none;
+    padding: 0.5rem 1rem;
+  }
 }
-@import 'modern-resume-theme';
