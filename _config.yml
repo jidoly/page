@@ -13,14 +13,14 @@ skills:
   - AWS
   - Jenkins
   
-# # Additional icon links
-# additional_links:
-#   - title: Tech Blog
-#     icon: fab fa-blogger
-#     url: https://jaehoney.tistory.com
+# Additional icon links
+additional_links:
+  - title: Email
+    icon: fas fa-envelope
+    url: mailto:jidol8849@gmail.com
 
 # Social links
-# github_username: jidoly
+github_username: jidoly
 
 # About Section
 # about_title: About Me
