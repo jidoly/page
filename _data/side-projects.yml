@@ -2,11 +2,15 @@
   name: 무인 트레이딩 시스템
   link: https://github.com/jidoly/money-py-public
   job_title: 실시간 주식 자동매매 · 개인 프로젝트 · Python / FastAPI / React
+  dates: 2026.02 ~ 운영 중
   quote: >
     한국투자증권 Open API 기반 — 수집·발주·체결정합·청산·원장까지 무인 운영되는 트레이딩 백엔드
   description: |
-    * **Python · FastAPI · asyncio 단일 이벤트루프**로 실시간 파이프라인 구성 — WebSocket 호가/체결 수신 → 신호 판정 → REST 주문 → 체결 폴링 → 청산 → 원장 기록
-    * **체결정합 엔진**: 브로커 체결통보 없이 잔고 스냅샷 **델타 귀속**으로 체결 감지, 보유/매도가능 수량 분리 캐시로 청산 수량 클램프 (다포지션·부분체결 대응)
-    * **무인 운영 내결함성**: WebSocket 재접속 지수 백오프·수신 워치독, 프로세스 재기동 시 포지션 복원, 개장 자가복구(고아 포지션 정리), 포트 점유 기반 중복 실행 방지 런처 (Windows 작업 스케줄러 데일리 + 15분 guard)
-    * **polars · parquet 기반 백테스트 엔진**: 1년치 1분봉(종목당 ~95k행) 수집 후 라이브 원장에서 실측한 슬리피지·비용 상수를 입력으로 파라미터 스윕 → 전략 검증·기각
-    * **React · TypeScript · Vite 실시간 대시보드**: 신호 게이지·포지션 상태·체결 블로터, Docker Compose 배포 / 에러 관측성(JSONL 영속화 · REST 조회 API · Slack 알림)
+    * Claude Code 기반 바이브 코딩
+      - PDCA 기반 bkit 활용 / 서브 에이전트 활용
+    * Python · FastAPI · asyncio 기반 실시간 자동매매 시스템 개발
+    * KIS WebSocket/REST API 기반 시세 수집·주문·체결·청산 파이프라인 구축
+    * 잔고 스냅샷 델타 기반 체결 정합 및 부분체결 처리
+    * Risk Gate, WebSocket 재접속·Watchdog, 포지션 복원 등 안정성 구현
+    * Polars/Parquet 기반 백테스트 및 실측 거래비용 기반 전략 검증
+    * React/TypeScript 실시간 대시보드 및 Slack 장애 알림 구현
