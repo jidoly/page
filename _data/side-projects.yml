@@ -6,8 +6,9 @@
   quote: >
     한국투자증권 Open API 기반 — 수집·발주·체결정합·청산·원장까지 무인 운영되는 트레이딩 백엔드
   description: |
-    * Claude Code 기반 바이브 코딩
-      - PDCA 기반 bkit 활용 / 서브 에이전트 활용
+    * AI 기반 개발 도구를 활용한 개발 프로세스 구축
+      - Claude Code 및 서브 에이전트를 활용한 구현·리뷰·테스트 자동화
+      - PDCA 기반 개발 사이클 적용
     * Python · FastAPI · asyncio 기반 실시간 자동매매 시스템 개발
     * KIS WebSocket/REST API 기반 시세 수집·주문·체결·청산 파이프라인 구축
     * 잔고 스냅샷 델타 기반 체결 정합 및 부분체결 처리
