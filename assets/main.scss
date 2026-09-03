@@ -19,8 +19,8 @@ h3 {
   font-style: italic;
   font-weight: 400;
   color: #075985;
-  background: #eff6ff;
-  border-left: 4px solid #60a5fa;
+  background: #dbeafe;
+  border-left: 4px solid #3b82f6;
   border-radius: 0 8px 8px 0;
   padding: 1.2rem 1.6rem;
   margin: 0 0 2rem;
@@ -87,7 +87,15 @@ h3 {
     align-items: flex-start;
   }
 
+  /* Bootstrap 프린트 리셋(* { background: none !important })을 되받아치기 */
   .quote {
     padding: 0.5rem 1rem;
+    background: #dbeafe !important;
+    color: #075985 !important;
+  }
+
+  .tag {
+    background: #e0f2fe !important;
+    color: #0369a1 !important;
   }
 }
