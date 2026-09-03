@@ -99,4 +99,16 @@ h3 {
     background: #e0f2fe !important;
     color: #0369a1 !important;
   }
+
+  /* 항목이 페이지 경계에서 잘리지 않도록 */
+  .layout {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* 섹션 제목이 페이지 맨 아래에 홀로 남지 않도록 */
+  h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
 }
