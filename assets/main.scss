@@ -87,9 +87,10 @@ h3 {
     align-items: flex-start;
   }
 
-  /* Bootstrap 프린트 리셋(* { background: none !important })을 되받아치기 */
-  .quote {
-    padding: 0.5rem 1rem;
+  /* Bootstrap 프린트 리셋(* { background: none !important })을 되받아치기.
+     테마 프린트 규칙 p.quote { padding: 0 1rem }보다 우선하도록 p.quote 사용 */
+  p.quote {
+    padding: 0.9rem 1.4rem;
     background: #dbeafe !important;
     color: #075985 !important;
   }
