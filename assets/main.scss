@@ -112,9 +112,23 @@ h3 {
     page-break-after: avoid;
   }
 
-  /* Activity 섹션은 항상 새 페이지에서 시작 */
+  /* Projects · Activity 섹션은 항상 새 페이지에서 시작 */
+  .main-projects-container,
   .activity-container {
     break-before: page;
     page-break-before: always;
+  }
+
+  /* 섹션 사이 여백 확보 */
+  .container {
+    margin-bottom: 2.5rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+
+  .layout + .layout {
+    padding-top: 2rem;
   }
 }
